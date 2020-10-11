@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :class="$style.moduleStyle">
+  <div id="app" :class="[$style.moduleStyle]">  <!-- Using array syntax because it creates class="" in inspector rather than not showing class at all. It's just for presentation. Doing :class="$style.moduleStyle" is fine also -->
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
