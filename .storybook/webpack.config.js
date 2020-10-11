@@ -13,7 +13,7 @@ module.exports = ({ config }) => {
               modules: {
                 localIdentName: '[name]-[hash]'
               },
-              localsConvention: 'camelCase'
+              // localsConvention: 'camelCase'
             }
           },
           'sass-loader'

@@ -2,7 +2,7 @@
 import App from '../App.vue';
 
 export default {
-  title: 'BrokenCssModules',
+  title: 'BrokenCssModules (should have red bg)',
   component: App,
   argTypes: {
     backgroundColor: { control: 'color' },
